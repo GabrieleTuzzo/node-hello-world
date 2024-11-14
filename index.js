@@ -1,1 +1,2 @@
-console.log('Hello world')
+const additionalParameters = process.argv.slice(2)
+console.log('Hello ' + additionalParameters)
